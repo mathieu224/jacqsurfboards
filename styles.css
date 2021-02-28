@@ -8,10 +8,16 @@ body{
 nav{
 	width: 100%;
 	background-color: rgb(247, 247, 247);
-	padding-top: 30px;
+	padding-top: 10px;
 	position: fixed;
 	z-index: 4;
 }
+
+.topupdate{
+		background-color: red;
+		color: white;
+		text-align: center;
+	}
 
 nav img{
 	width: 420px;
@@ -186,7 +192,7 @@ ul li a:hover{
 	margin: 80px 5% 50px 8%;
 }
 
-
+/*
 		.slider{
 		width: 80%;
 		overflow: hidden;
@@ -216,9 +222,13 @@ ul li a:hover{
     	-o-filter: grayscale(100%);
 	}*/
 
+
+
 	.petitecran, .vid1, .topnav{
 		display: none;
 	}
+
+	
 
 
 
@@ -261,6 +271,7 @@ nav ul{
 
 nav{
 	padding: 3%;
+	
 }
 
 .bloc1, .bloc2, .bloc3, .bloc4, .bloc5, .bloc6{
